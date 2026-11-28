@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="it" data-title-en="KillSta Games — free games in your browser">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>KillSta Games — giochi gratis nel browser</title>
+  <meta name="description" content="KillSta Games: giochi originali e gratuiti da giocare subito nel browser. Free original games to play right in your browser.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script src="js/prefs.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero">
+    <nav id="nav" class="nav"></nav>
+    <div class="hero__content">
+      <p class="eyebrow">
+        <span data-lang="it">100% gratis · Giochi indipendenti, fatti in casa</span>
+        <span data-lang="en">100% free · Independent, home-made games</span>
+      </p>
+      <h1 data-lang="it"><span class="glow">Si gioca gratis.</span></h1>
+      <h1 data-lang="en"><span class="glow">Play for free.</span></h1>
+      <p class="lead" data-lang="it">Giochi originali, direttamente nel browser: niente da pagare, niente installazioni, niente registrazione.</p>
+      <p class="lead" data-lang="en">Original games, right in your browser: nothing to pay, nothing to install, no sign-up.</p>
+      <a class="button button--primary" href="#giochi">
+        <span data-lang="it">Scegli un gioco</span>
+        <span data-lang="en">Pick a game</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section">
+      <ul class="perks">
+        <li>
+          <span class="perks__icon">🎮</span>
+          <div data-lang="it"><b>Tutto gratis, sempre</b><p>Ogni gioco è completo e gratuito: nessun acquisto, nessun abbonamento.</p></div>
+          <div data-lang="en"><b>All free, always</b><p>Every game is complete and free: no purchases, no subscriptions.</p></div>
+        </li>
+        <li>
+          <span class="perks__icon">☕</span>
+          <div data-lang="it"><b>Vive di offerte e pubblicità</b><p>Il sito si mantiene con qualche annuncio e, se ti va, con una donazione. Non è mai obbligatoria.</p></div>
+          <div data-lang="en"><b>Runs on offers and ads</b><p>The site is kept alive by a few ads and, if you feel like it, a donation. It is never required.</p></div>
+        </li>
+        <li>
+          <span class="perks__icon">📣</span>
+          <div data-lang="it"><b>Pubblicità discreta</b><p>Gli annunci stanno sulle pagine del sito, mai dentro i giochi. Puoi rifiutare i cookie e giochi lo stesso.</p></div>
+          <div data-lang="en"><b>Low-key ads</b><p>Ads sit on the site pages, never inside the games. You can decline cookies and still play.</p></div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="giochi" class="section">
+      <div class="section__head">
+        <h2><span data-lang="it">I giochi</span><span data-lang="en">The games</span></h2>
+        <p>
+          <span data-lang="it"><span data-game-count>0</span> titoli, tutti gratuiti</span>
+          <span data-lang="en"><span data-game-count>0</span> titles, all free</span>
+        </p>
+      </div>
+      <div id="games" class="grid"></div>
+    </section>
+
+    <section id="ad-section" class="section ad" hidden>
+      <p class="ad__label"><span data-lang="it">Pubblicità</span><span data-lang="en">Advertisement</span></p>
+      <div id="ad-slot"></div>
+    </section>
+
+    <section id="supporto" class="section">
+      <div class="support__box">
+        <div data-lang="it">
+          <h2>Ti sei divertito?</h2>
+          <p>Il sito è gratuito e si mantiene con qualche annuncio e con le offerte di chi gioca. Con il tuo aiuto posso fare nuovi giochi e migliorare quelli che ci sono.</p>
+        </div>
+        <div data-lang="en">
+          <h2>Did you have fun?</h2>
+          <p>The site is free and is kept alive by a few ads and by offers from players. With your help I can make new games and improve the existing ones.</p>
+        </div>
+        <div class="support__actions">
+          <a class="button button--coffee" data-coffee href="#"></a>
+          <a class="button" href="support.html">
+            <span data-lang="it">Cosa farei con il tuo aiuto →</span>
+            <span data-lang="en">What your help makes possible →</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/strings.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

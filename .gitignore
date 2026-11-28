@@ -1,0 +1,11 @@
+.claude/
+CLAUDE.md
+AGENTS.md
+.serena/
+.mcp.json
+MEMORY.md
+.env
+node_modules/
+
+# Work diary and timesheet stay on this computer
+docs/

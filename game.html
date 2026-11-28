@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- One page for every game: game.html?id=<id from js/games.js>. The content comes from the game's "details". -->
+  <title>KillSta Games</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <script src="js/prefs.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="hero hero--compact">
+    <nav id="nav" class="nav"></nav>
+  </header>
+
+  <main id="game-page" class="section game"></main>
+
+  <section id="ad-section" class="section ad" hidden>
+    <p class="ad__label"><span data-lang="it">Pubblicità</span><span data-lang="en">Advertisement</span></p>
+    <div id="ad-slot"></div>
+  </section>
+
+  <footer id="footer" class="footer"></footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/strings.js"></script>
+  <script src="js/games.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

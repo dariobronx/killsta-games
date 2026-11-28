@@ -1,0 +1,3 @@
+# Required by Google AdSense: it proves this site may sell ads through your account.
+# After AdSense gives you a publisher ID, replace the zeros and remove the leading "# ".
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
